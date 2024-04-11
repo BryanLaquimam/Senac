@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    margin: auto;
+}
+
+
+.titulo1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 10px;
+}
+
+.titulo2{
+    border-bottom: 1px solid black;
+}
+
+.titulo3{
+    border-bottom:  1px solid black;
+}
+
+figure{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 30px;
+}
+figcaption{
+    padding: 10px;
+}
