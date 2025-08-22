@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.borda{
+    border: black solid 5px;
+    height: 100vh;
+}
+
+.fixed{
+    background-color: red;
+    height: 200px;
+    left: 20px;
+    top:20px ;
+    width: 300px;
+    position: fixed;
+    border: black solid 2px;
+}
+
+.absolute{
+    background-color: green;
+    height: 450px;
+    width: 500px;
+    position: absolute;
+    right: 300px;
+    left: 340px;
+    top: 165px;
+    border: black solid 2px;
+}
+
+.relative{
+    background-color: rgb(180, 180, 255);
+    height: 575px;
+    width: 1150px;
+    left: 400px;
+    top: 175px;
+    position: relative;
+    border: black solid 2px;
+}

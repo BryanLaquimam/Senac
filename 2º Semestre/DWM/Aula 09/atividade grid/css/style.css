@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: #8D0606;
+    --cinza: #C4C4C4;
+    --cinzatexto: #8C8888;
+    --cinzafundo: #F1F1F1;
+    --preto: #000;
+    --branco: #fff;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.menu {}
+
+.menu__lista {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu__lista a {
+    text-decoration: none;
+    color: var(--cinzatexto);
+}
+
+.banner {
+    height: 60vh;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__titulo {
+    color: var(--branco);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    font-family: Pacifico;
+    font-size: 5.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.titulo {
+    color: var(--vermelho);
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 3.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto {
+    width: 62.0625rem;
+    color: var(--cinzatexto);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.receitas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 2rem;
+    margin: 4rem 0;
+    background-color: var(--cinzafundo);
+    padding: 4rem;
+    margin: 4rem 0;
+}
+
+.card {
+    width: 17.875rem;
+    height: 24rem;
+    background-color: var(--branco);
+    border: 1px solid var(--cinza);
+}
+
+.card__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card__titulo {
+    color: var(--preto);
+    font-family: Roboto;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card__descricao {
+    color: var(--preto);
+    font-family: Roboto;
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.botao {
+    background-color: var(--vermelho);
+    border-radius: 0.3125rem;
+    width: 7.1875rem;
+    height: 2.3125rem;
+    border: none;
+}
+
+.botao a {
+    color: var(--branco);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

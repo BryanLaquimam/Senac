@@ -1,0 +1,17 @@
+﻿# Ignorar node_modules e arquivos gerados automaticamente
+node_modules/
+dist/
+build/
+*.log
+*.lock
+*.tmp
+
+# Ignorar arquivos do VS Code e do sistema
+.vscode/
+.DS_Store
+
+# Ignorar dependências do TypeScript
+*.tsbuildinfo
+
+# Ignorar arquivos de ambiente
+.env

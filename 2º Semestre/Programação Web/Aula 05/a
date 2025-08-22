@@ -1,0 +1,60 @@
+import { useForm } from "react-hook-form";
+import "./App.css";
+
+function App() {
+  const { register, handleSubmit, reset, watch } = useForm();
+
+  // Função chamada quando o formulário é enviado
+  const onSubmit = (data) => {
+    console.log(data);
+    // Aqui você pode lidar com os dados do formulário, como enviar para uma API
+  };
+
+  // Função para limpar os dados do formulário
+  const onReset = () => {
+    reset();
+  };
+
+  return (
+    <>
+      <img src="./logo.png" alt="" className="img" />
+      <h1 className="fontH1">Avenida Seguros</h1>
+      <hr />
+      <h1>App Seguro de Veículos</h1>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <label htmlFor="modelo">Modelo do Veículo: </label>
+        <input type="text" id="modelo" {...register("modelo")} />
+
+        <label htmlFor="marca">Marca: </label>
+        <select id="marca" {...register("marca")}>
+          <option value="">Selecione...</option>
+          <option value="chevrolet">Chevrolet</option>
+          <option value="ford">Ford</option>
+          <option value="fiat">Fiat</option>
+          <option value="volkswagen">Volkswagen</option>
+        </select>
+
+        <label htmlFor="preco">Preço: </label>
+        <input type="number" id="preco" {...register("preco")} />
+
+        <label>Principal Condutor: </label>
+        <input type="radio" id="condutorHomem" value="homem" {...register("condutor")} />
+        <label htmlFor="condutorHomem">Homem</label>
+        <input type="radio" id="condutorMulher" value="mulher" {...register("condutor")} />
+        <label htmlFor="condutorMulher">Mulher</label>
+
+        <label htmlFor="clienteAvenida">Cliente Avenida: </label>
+        <input type="checkbox" id="clienteAvenida" {...register("clienteAvenida")}/>
+
+        <label htmlFor="renovacao">É renovação? </label>
+
+        <div>
+          <button type="submit">Simular Seguro</button>
+          <button type="button" onClick={onReset}>Limpar Dados</button>
+        </div>
+      </form>
+    </>
+  );
+}
+
+export default App;

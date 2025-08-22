@@ -1,0 +1,13 @@
+label, input, textarea{
+    display: block;
+    padding: 8px 0;
+}
+fieldset{
+    width: 50%;
+    margin: auto;
+}
+.botoes{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}

@@ -1,0 +1,6 @@
+Batman;Luta;50
+Gta V;Mundo Aberto;100
+Minecraft;Mundo Aberto;150
+Ghost of Tsushima;Luta;210
+Mario;2d;100
+Call of Duty;Fps;0

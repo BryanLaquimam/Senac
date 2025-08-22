@@ -1,0 +1,399 @@
+main{
+    margin: 10em;
+}
+.cabecalho {
+    background-color: var(--primaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 0 2em;
+    font-family: Bellota;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid black;
+}
+.logo {
+    color: var(--Secundaria, #3D3B30);
+    font-family: Italianno;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.menu {
+}
+.menu__lista {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+.menu__lista, a{
+    color: var(--secundaria);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.menu__lista a:hover{
+    color: var(--primaria);
+}
+.botaoentre {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: var(--Terciaria, #D9D9D9);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.entre {
+    color: var(--secundaria);
+}
+.banner {
+    background-image: url("../Img/Banner.jfif");
+    width: 82vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    margin-bottom: 2em;
+}
+.titulo__banner {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: white;
+    width: 170px;
+    height: 222px;
+    font-family: "Open Sans";
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7em;
+    gap: 1em;
+}
+.sobre__container {
+    text-align: center;
+    width: 161px;
+    height: 42px;
+    border-radius: 6px;
+
+    color: var(--secundaria, #3D3B30);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo{
+    
+}
+.botao__reserva {
+    width: 161px;
+    height: 42px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: var(--Terciaria, #D9D9D9);
+    color: var(--Secundaria, #3D3B30);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+.ofertadodia {
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ofertadodia__card {
+    padding: 2em;
+    border-radius: 6px;
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    background: var(--Primaria, #E7E247);
+    width: 413px;
+    height: 497px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+button {
+    border-radius: 6px;
+border: 1px solid #000;
+background: var(--Terciaria, #D9D9D9);
+color: var(--Secundaria, #3D3B30);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* h3 */
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: rgba(0, 0, 0, 0.50);
+font-family: Bellota;
+font-size: 1em;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 160px;
+height: 60px;
+flex-shrink: 0;
+}
+button a:hover{
+    color: var(--primaria);
+}
+.ofertadodia__card img {
+    width: 130px;
+height: 115px;
+flex-shrink: 0;
+    border-radius: 130px;
+border: 1px solid #000;
+}
+.card__titulo {
+    border-radius: 6px;
+border: 1px solid var(--Terciaria, #D9D9D9);
+background: var(--Primaria, #E7E247);
+color: var(--Secundaria, #3D3B30);
+text-align: center;
+
+/* h2 */
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: rgba(0, 0, 0, 0.50);
+font-family: "Open Sans";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.card__oferta {
+    width: 413px;
+height: 697px;
+flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+   
+}
+.opcoes {
+    padding-top: 4em;
+}
+.card__container {
+     display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.card__container2 {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    gap: 2em;
+}
+
+/* .ofertadia {
+    border-radius: 6px;
+    margin-left: 4.5rem;
+    margin-top: 6rem;
+    width: 15%;
+    height: 40%;
+    background-color: var(--primaria);
+    border: 1em solid var(--primaria);
+}
+.titulo__oferta {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--secundaria);
+    text-align: center;
+}
+.hamburguer {
+    width: 413px;
+    height: 397px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    background: var(--Primaria, #E7E247);
+    margin-top: 2rem;
+}
+.hbm {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: var(--primaria);
+
+}
+.botao__saiba {
+    width: 160px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #000;
+    background: var(--Terciaria, #D9D9D9);
+}
+.botao__vip {
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: var(--Terciaria, #D9D9D9);
+}
+.Escolha {
+    margin-top: 2rem;
+    width: 332px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    background: var(--Primaria, #E7E247);
+}
+.titulo__Escolha {
+    margin-top: 6px;
+    width: 317px;
+    height: 64px;
+    flex-shrink: 0;
+    color: var(--Secundaria, #3D3B30);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.opcao {
+    width: 426px;
+    height: 397px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    background: var(--Primaria, #E7E247);
+}
+.opcoes {
+    width: 346px;
+    height: 54px;
+    flex-shrink: 0;
+    color: var(--Terciaria, #D9D9D9);
+    text-align: center;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.botao__peca{
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: var(--Terciaria, #D9D9D9);
+}
+.botao__vercardapio {
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: var(--Terciaria, #D9D9D9);
+}
+.saibamais {
+    background-image: url(../Img/fundotexto.jfif);
+    width: 160vh;
+    height: 80vw;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    margin-top: 5rem;
+} */
+ .saibamais {
+    background-image: url(../Img/fundotexto.jfif);
+    width: 160vh;
+    height: 80vw;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    margin-top: 5rem;
+ }
+/*.logo__saiba {
+    margin-top: 8rem;
+    margin-left: 38rem;
+    color: var(--Primaria, #E7E247);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Italianno;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}*/
+/*.texto__saiba {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: var(--primaria);
+    font-size: 3em;
+    margin-top: 8rem;
+    margin-left: 38rem;
+    color: var(--Primaria, #E7E247);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Italianno;
+    /*font-size: 3em;*/
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}*/
+.texto__saiba h2 {
+    display: flex;
+    align-items: top;
+}
+.localizacao {
+    margin-top: 5rem;
+    background-color: var(--primaria);
+    height: 100vh;
+    width: 80vw;
+}
+.locimg{
+    width: 100px;
+    height: 100px;
+}
+.logos__loc {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.rodape {
+    height: 35vh;
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    background: var(--Primaria, #E7E247);
+    border: 1px solid var(--Terciaria, #D9D9D9);
+    background: var(--Primaria, #E7E247);
+}
+.logos__rodape {
+    width: 90px;
+    height: 57px;
+}
+.contatos__rodape {
+    color: var(--Secundaria, #3D3B30);
+    font-family: Bellota;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+.redesociais {
+    display: flex;
+    width: 86px;
+    height: 78px;
+}
+.rodape__texto {
+    text-shadow: black;
+    color: var(--Terciaria, #D9D9D9);
+    text-align: center;
+    font-family: Bellota;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4rem;
+}

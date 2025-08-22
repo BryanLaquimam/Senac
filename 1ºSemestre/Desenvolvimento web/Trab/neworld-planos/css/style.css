@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+
+:root {
+    --neutras01: #000000;
+    --neutras02: #FFFFFF;
+    --primarias01: #FDE2FF;
+    --primarias02: #5D576B;
+    --primarias03: #8884FF;
+}
+
+body{
+    background-color: var(--primarias01);
+    color: var(--primarias02);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    font-family: "Inter", "sans-serif";
+    font-size: 2rem;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.75rem 2rem 4rem 0;
+}
+
+.cabecalho ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+#selecionado {
+    color: var(--primarias03);
+}
+
+.cabecalho ul li a {
+    color: var(--primarias02);
+}
+
+.cabecalho ul li a:hover {
+    color: var(--primarias03);
+}
+
+.chamada {
+    margin-top: -7rem;
+    color: var(--primarias02);
+    text-align: center;
+    font-family: "IBM Plex Sans", "sans-serif";
+}
+
+.chamada h1 {
+    margin-bottom: 2.5rem;
+}
+
+.embarque {
+    font-size: 7rem;
+}
+
+.ferias {
+    margin-bottom: 6rem;
+    font-family: "IBM Plex Sans Condensed", "sans-serif";
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 0;
+    font-family: "Inter";
+    margin-top: -4rem;
+}
+
+.viagem__card {
+    height: 38rem;
+    padding-top: -8rem;
+    width: 14rem;
+    background-color: var(--neutras02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.nome__texto {
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+.botao {
+    background-color: var(--primarias03);
+    color: var(--neutras02);
+    font-family: "Inter", "sans-serif";
+    padding: 1rem 1rem;
+    border-radius: .3125rem;
+}
+
+.botao:hover {
+    background-color: var(--primarias02);
+}
+
+.detalhes {
+    margin: -1.5rem 0;
+    line-height: 1.5rem;
+}
+
+.preco {
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+
+.footer {
+    display: flex;
+    padding: 2rem 12.1875rem;
+    align-items: self-start;
+    justify-content: flex-start;
+    gap: 1.875rem;
+    font-weight: bold;
+    color: var(--primarias02);
+    margin-top: 1.5rem;
+    font-family: "Inter", "sans-serif";
+    font-size: .99rem;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 9.25rem;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    margin-left: -2.5rem;
+    margin-top: -1rem;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.lista li a {
+    color: var(--primarias03);
+}
+
+.lista li a:hover {
+    color: var(--primarias02);
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 20.0625rem;
+}
+
+.newsletter h4 {
+    color: var(--primarias02);
+}
+
+.newsletter form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.newsletter div {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    font-size: .99rem;
+    padding: 0.9375rem 0 0.9375rem 1.25rem;
+    border-width: 1px;
+    font-weight: 400;
+    margin-top: -.8rem;
+    margin-bottom: -.8rem;
+}
+
+.newsletter p {
+    font-size: 0.75rem;
+    color: var(--primarias02);
+    line-height: 1.75rem;
+}
+
+.newsletter .botao {
+    font-weight: 400;
+    margin-top: -.9rem;
+    margin-left: .1rem;
+    padding: .99rem;
+}
+
+/* 
+    <p class="text-[0.75rem] text-neutral-500 leading-7	">Leia sobre nossa política de dados <a href="" class= "text-primarias03">aqui</a></p>
+</div>
+<a href="" class="bg-primarias03 text-white p-4 rounded-[0.3125rem] font-normal hover:bg-primarias02">Enviar</a>
+</form>
+</div> */

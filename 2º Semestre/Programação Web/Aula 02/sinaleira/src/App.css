@@ -1,0 +1,20 @@
+.titulo {
+  color: #f00;
+}
+
+.img-sinaleira {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.verde{
+  color: green;
+}
+
+.vermelha{
+  color: #f00;
+}
+
+.amarela{
+  color: yellow;
+}

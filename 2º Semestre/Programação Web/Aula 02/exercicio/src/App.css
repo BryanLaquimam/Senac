@@ -1,0 +1,19 @@
+.titulo{
+  font-weight: bold;
+  font-size: 80px;
+}
+.subtitulo{
+  font-weight: bold;
+  font-size: 40px;
+}
+.mensatenis{
+  color: #f00;
+  font-style: italic;
+}
+.img-principal{
+  height: 500px;
+}
+.img-tenis{
+  height: 150px;
+  cursor: pointer;
+}

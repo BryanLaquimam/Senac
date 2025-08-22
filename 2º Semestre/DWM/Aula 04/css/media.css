@@ -1,0 +1,171 @@
+/* Responsivo */
+@media screen and (max-width:480px) {
+    .cabecalho img {
+        display: block;
+    }
+
+    .cabecalho__titulo {}
+
+    .menu {
+        display: none;
+    }
+
+    .menu__lista {}
+
+    .hero {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .hero__texto {
+        align-items: center;
+    }
+
+    .hero__titulo {
+        width: 23.625rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .hero__paragrafo {
+        width: 23.625rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .hero__botao {}
+
+    .hero__img {}
+
+    .companies {}
+
+    .companies__texto {}
+
+    .companies__container {
+        width: 23.75rem;
+        height: 5.375rem;
+    }
+
+    .companies__container img {
+        width: 4.375rem;
+        height: 1.5rem;
+    }
+
+    .branding {
+        flex-direction: column-reverse;
+    }
+
+    .branding__img img {
+        width: 23.4375rem;
+        height: 24rem;
+    }
+
+    .branding__texto {
+        align-items: center;
+    }
+
+    .branding__titulo {
+        width: 23.75rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .branding__paragrafo {
+        width: 23.75rem;
+        font-size: 0.875rem;
+        align-items: center;
+    }
+
+    .custome {
+        flex-direction: column;
+    }
+
+    .custome__texto {
+        align-items: center;
+    }
+
+    .custome__titulo {
+        width: 23.75rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .custome__paragrafo {
+        width: 23.75rem;
+        font-size: 0.875rem;
+        align-items: center;
+    }
+
+    .custome__img {}
+
+    .testimonial {}
+
+    .testimonial__paragrafo {}
+
+    .testimonial__titulo {
+        font-size: 2rem;
+        width: 20.75rem;
+    }
+
+    .testimonial__container {}
+
+    .card__titulo {}
+
+    .card__info {}
+
+    .contact {
+        flex-direction: column;
+        height: 21.875rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__img {
+        display: none;
+    }
+
+    .contact__texto {
+        align-items: center;
+    }
+
+    .contact__titulo {
+        width: 19.3125rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contact__paragrafo {
+        width: 19.3125rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .contact__botao {}
+
+    .rodape {
+        width: 100%;
+        height: 100%;
+    }
+
+    .rodape__infos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .rodape__lista {
+        text-align: center;
+    }
+
+    .lista__titulo {
+    }
+
+    .lista__texto {
+        margin-left: 3rem;
+    }
+
+    .rodape__titulo {}
+
+    .rodape__texto {}
+
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --preto: #000000;
+    --branco: #ffffff;
+    --fundocabecalho: #162028;
+    --azulsobre: #003d52;
+    --rodape: #0b171f;
+    --pretotexto: #1d1d1d;
+}
+body{
+    width: 98%;
+    margin: 1em auto;
+}
+
+.cabecalho {
+}
+.cabecalho__container {
+    height: 10vh;
+    background-color: var(--fundocabecalho);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.cabecalho__titulo {
+    color: var(--branco);
+    width: 30%;
+    font-family: "Viaoda Libre", sans-serif;
+}
+.menu {
+}
+.menu__lista {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+}
+.menu__lista a{
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;/*espaçamento entre letras*/
+}
+
+.cabecalho__img {
+    height: 90vh;
+    background-image: url(../imagens/topo.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 80%;
+    margin: 2em auto;
+}
+.principal__titulo {
+    text-transform: uppercase;
+}
+.principal__texto {
+    text-align: center;
+    line-height: 1.8;
+}
+.modelos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em 0;
+}
+.modelos__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.modelos__titulo {
+    text-transform: uppercase;
+
+}
+.modelos__texto {
+}
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: var(--azulsobre);
+    padding: 8em;
+    color: var(--branco);
+    background-image: url(../imagens/bg_detalhe.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.sobre__titulo {
+    width: 30%;
+    text-transform: uppercase;
+}
+.sobre__texto {
+    width: 60%;
+}
+.rodape {
+    height: 10vh;
+    background-color: var(--rodape);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape__texto {
+    color: var(--azulsobre);
+    letter-spacing: .2em;
+}

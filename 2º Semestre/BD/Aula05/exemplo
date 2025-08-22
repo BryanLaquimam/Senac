@@ -1,0 +1,48 @@
+mysql -u root -p
+senacrs
+
+DROP DATABASE IF EXISTS exemplo;
+CREATE DATABASE exemplo;
+USE exemplo;
+
+CREATE TABLE aluno(
+    id INT,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE produtos (
+    codigo INT AUTO_INCREMENT,
+    nome VARCHAR(100),
+    preco DECIMAL(10, 2),
+    PRIMARY KEY (codigo)
+);
+
+CREATE TABLE clientes (
+    codigo INT AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    telefone CHAR(20),
+    cidade VARCHAR(100),
+    PRIMARY KEY (codigo)
+);
+
+INSERT INTO clientes (nome, email, telefone, cidade)
+VALUES ('Clarinda Nunes', 'clarinda.nunes@email.com',
+'567-1234', 'Pelotas');
+
+INSERT INTO produtos (nome, preco)
+VALUES
+('Notebook Acer Aspire 5', 3500.00),
+('Mouse Logitech MX Master 3', NULL),
+('Monitor Samsung 24"', 899.99),
+('Teclado Mecânico Razer BlackWidow'
+, 600.00),
+('Fone de Ouvido Sony WH-1000XM4', 1500.00),
+('SSD Kingston A400 480GB', 350.00),
+('Smartphone Samsung Galaxy S21', NULL),
+(NULL, 1200.00),
+('Impressora Multifuncional HP DeskJet'
+, 500.00),
+('Placa de Vídeo NVIDIA RTX 3070', 4500.00);
