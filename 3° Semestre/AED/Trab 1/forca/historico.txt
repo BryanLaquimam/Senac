@@ -1,0 +1,8 @@
+Bryan,memoria,Venceu,0
+Bryan,rebase,Perdeu,6
+Ruan,largura,Venceu,2
+Ruan,algoritmo,Venceu,0
+Bryan,nosql,Perdeu,6
+Ruan,kernel,Perdeu,6
+Bryan,medico,Venceu,2
+Astolfo,policial,Perdeu,6

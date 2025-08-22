@@ -1,0 +1,102 @@
+Class,Name,Type,Operator,Role,Organization,Damage,Damage Suppressed,ROF,Magazine,Suppressor,ACOG,Range
+Primary,417,Marksman Rifle,Lion Twitch,Attacker,CBRN GIGN,69,58,Semi-Auto,20,Y,Y,Long Range
+Secondary,.44 MAG SEMI-AUTO,Handgun,Kaid Nomad,Attacker Defender,GIGR,54,,Semi-Auto,7,N,Y,Short to Mid Range
+Secondary,1911 TACOPS,Handgun,Maverick,Attacker,MPS,55,46,Semi-Auto,8,Y,N,Short Range
+Primary,416-C CARABINE,Assault Rifle,Jäger,Defender,GSG9,43,36,740,30,Y,N,Mid Range
+Secondary,5.7 USG,Handgun,Ash Castle Nøkk Pulse Thermite,Attacker Defender,FBI JaegerCorps,42,35,Semi-Auto,20,Y,N,Short Range
+Primary,552 COMMANDO,Assault Rifle,IQ,Attacker,GSG9,48,40,490,30,Y,Y,Mid Range
+Primary,556XI,Assault Rifle,Thermite,Attacker,FBI,46,39,690,30,Y,Y,Mid to Long Range
+Primary,6P41,Light Machine Gun,Finka Fuze,Attacker,CBRN Spetsnaz,46,39,680,100,Y,Y,Mid Range
+Primary,9MM C1,SMG,Frost,Defender,JTF2,45,38,575,34,Y,N,Short to Mid Range
+Primary,9X19VSN,SMG,Kapkan Tachanka,Defender,Spetsnaz,34,28,750,30,Y,N,Short to Mid Range
+Primary,ACS12,Shotgun,Alibi Maestro,Defender,GIS,27,,300,30,N,N,Short Range
+Primary,AK-12,Assault Rifle,Fuze,Attacker,Spetsnaz,45,38,850,30,Y,Y,Mid to Long Range
+Primary,AK-74M,Assault Rifle,Nomad,Attacker,GIGR,44,37,650,40,Y,Y,Mid to Long Range
+Primary,ALDA 5.56,Light Machine Guns,Maestro,Defender,GIS,35,29,900,80,Y,Y,Mid to Long Range
+Primary,AR-15.50,Assault Rifle,Maverick,Attacker,MPS,62,52,Semi-Auto,10,Y,Y,Mid to Long Range
+Primary,AR33,Assault Rifle,Thatcher,Attacker,SAS,41,34,749,25,Y,Y,Mid to Long Range
+Primary,ARX200,Assault Rifle,Nomad Iana,Attacker,GIGR,47,39,750,20,Y,Y,Mid to Long Range
+Primary,AUG A2,Assault Rifle,IQ Wamai,Attacker Defender,GSG9,42,35,720,30,Y,Y,Mid Range
+Primary,AUG A3,SMG,Kaid,Defender,GIGR,33,28,700,31,Y,N,Short to Mid Range
+Secondary,BAILIFF 410,Handgun,Alibi Maestro Oryx,Defender,GIS,30,,Semi-Auto,5,N,N,Short Range
+Secondary,BEARING 9,Machine Pistol,Echo Hibana,Attacker Defender,SAT,33,28,1100,25,Y,N,Short Range
+Primary,BOSG.12.2,Shotgun,Dokkaebi Vigil,Attacker Defender,707thSMB,125,,Pump,2,N,N,Long Range
+Secondary,C75 AUTO,Machine Pistol,Dokkaebi Vigil Kali,Attacker Defender,707thSMB,35,29,1000,26,Y,N,Short Range
+Primary,C7E,Assault Rifle,Jackal,Attacker,GEO,46,39,800,30,Y,Y,Mid to Long Range
+Primary,C8-SFW,Assault Rifle,Buck,Attacker,JTF2,40,34,837,30,Y,Y,Mid Range
+Primary,CAMRS,Marksman Rifle,Buck,Attacker,JTF2,69,58,Semi-Auto,20,Y,Y,Long Range
+Primary,COMMANDO 9,Assault Rifle,Mozzie,Defender,SASR,36,30,750,25,Y,N,Short to Mid Range
+Secondary,D-50,Handgun,Blackbeard Nøkk Valkyrie,Attacker Defender,NavySEALS JaegerCorps,71,60,Semi-Auto,7,Y,N,Short Range
+Primary,F0-12,Shotgun,Ela,Defender,GROM,35,29,Semi-Auto,10,Y,N,Short Range
+Primary,F2,Assault Rifle,Twitch,Attacker,GIGN,37,31,980,30,Y,Y,Mid to Long Range
+Primary,F90,Assault Rifle,Gridlock,Attacker,SASR,38,32,740,30,Y,Y,Mid Range
+Primary,FMG-9,SMG,Smoke Nøkk,Defender,JaegerCorps SAS,30,25,800,30,Y,N,Short Range
+Primary,G36C,Assault Rifle,Ash Iana,Attacker,FBI,38,32,780,30,Y,Y,Mid Range
+Primary,G8A1,Light Machine Gun,IQ,Attacker,GSG9,37,31,850,50,Y,Y,Mid Range
+Secondary,GSH-18,Handgun,Finka Fuze Glaz Kapkan Tachanka,Attacker Defender,Spetsnaz CBRN,61,51,Semi-Auto,18,Y,N,Short Range
+Primary,ITA12L,Shotgun,Jackal Mira,Attacker Defender,GEO,50,,Pump,8,N,N,Short Range
+Secondary,ITA12S,Shotgun,Jackal Mira,Attacker Defender,GEO,70,,Pump,5,N,N,Short Rang
+Primary,K1A,SMG,Vigil,Defender,707thSMB,36,30,720,30,Y,N,Short to Mid Range
+Secondary,KERATOS .357,Handgun,Alibi Maestro Wamai,Defender,GIS,78,66,Semi-Auto,6,N,N,Short Range
+Primary,L85A2,Assault Rifle,Sledge Thatcher,Attacker,SAS,47,39,670,30,Y,Y,Mid to Long Range
+Secondary,LFP586,Handgun,Doc Lion Montagne Rook Twitch,Attacker Defender,GIGN CBRN,78,,Semi-Auto,6,N,N,Short Range
+Primary,LMG-E,Light Machine Gun,Zofia,Attacker,GROM,41,34,720,150,Y,Y,Mid Range
+Secondary,LUISON,Handgun,Caveira,Defender,BOPE,65,,Semi-Auto,12,Y*,N,Short to Mid Range
+Primary,M1014,Shotgun,Castle Pulse Thermite,Attacker Defender,FBI,34,,Semi-Auto,8,N,N,Short Range
+Primary,M12,SMG,Caveira,Defender,BOPE,36,30,550,30,Y,N,Short to Mid Range
+Primary,M249,Light Machine Gun,Capitao,Attacker,BOPE,48,,650,100,N,Y,Mid Range
+Primary,M249 SAW,Light Machine Gun,Gridlock,Attacker,SASR,48,,650,60,N,Y,Mid Range
+Primary,M4,Assault Rifle,Maverick,Attacker,MPS,44,37,750,30,Y,Y,Mid Range
+Secondary,M45 MEUSOC,Handgun,Ash Castle Pulse Thermite,Attacker Defender,FBI,58,49,Semi-Auto,7,Y,N,Short Range
+Primary,M590A1,Shotgun,Mute Sledge Smoke Thatcher Warden,Attacker Defender,SASSecretService,48,,Pump,7,N,N,Short to Mid Range
+Primary,M762,Assault Rifle,Zofia,Attacker,GROM,45,38,730,30,Y,Y,Mid to Long Range
+Primary,M870,Shotgun,Bandit Jäger,Defender,GSG9,60,,Pump,7,N,N,Short Range
+Primary,MK 14 EBR,Marksman Rifle,Dokkaebi,Attacker,707th SMB,60,51,Semi-Auto,20,Y,Y,Mid to Long Range
+Secondary,MK1 9MM,Assault Rifle,Blackbeard Iana,Attacker,NavySEALS,49,41,585,20,Y,Y,Mid Range
+Primary,MK17 CQB,Handgun,Buck Frost,Defender,JTF2,48,40,Semi-Auto,13,Y,N,Short Range
+Primary,MP5,SMG,Doc Rook Oryx,Defender,GIGN,27,22,800,30,Y,Y,Short to Long Range
+Primary,MP5K,SMG,Mute Wamai,Defender,SAS,30,25,800,30,Y,N,Short to Mid Range
+Primary,MP5SD,SMG,Echo,Defender,SAT,30,,800,30,Y*,Y,Short to Mid Range
+Primary,MP7,SMG,Bandit,Defender,GSG9,32,27,900,30,Y,N,Short to Mid Range
+Primary,MPX,SMG,Valkyrie,Defender,NavySEALS,26,22,830,30,Y,N,Short to Mid Range
+Primary,MX4 STORM,SMG,Alibi,Defender,GIS,26,22,950,30,Y,N,Short to Mid Range
+Primary,OTS-03,Marksman Rifle,Glaz,Attacker,Spetsnaz,71,60,Semi-Auto,10,Y,Y*,Long Range
+Primary,P10 RONI,SMG,Mozzie,Defender,SASR,26,22,950,19,Y,N,Short Range
+Secondary,P-10C,Handgun,Clash Warden,Defender,MPSSecretService,40,34,Semi-Auto,15,Y,N,Short Range
+Secondary,P12,Handgun,Bandit Blitz IQ Jäger Wamai,Defender,GSG9,44,37,Semi-Auto,15,Y,N,Short Range
+Secondary,P226 MK 25,Handgun,Mute Sledge Thatcher Smoke Kali,Attacker Defender,SAS,50,42,Semi-Auto,15,Y,N,Short Range
+Secondary,P229,Handgun,Echo Hibana,Attacker Defender,SAT,51,43,Semi-Auto,12,Y,N,Short Range
+Secondary,P9,Handgun,Doc Lion Montagne Rook Twitch,Attacker Defender,GIGN CBRN,45,38,Semi-Auto,16,Y,N,Short Range
+Primary,P90,SMG,Doc Rook,Defender,GIGN,22,18,970,50,Y,Y,Short to Mid Range
+Primary,PARA-308,Assault Rifle,Capitao,Attacker,BOPE,48,40,650,30,Y,Y,Mid to Long Range
+Primary,PDW9,SMG,Jackal,Attacker,GEO,34,28,800,50,Y,Y,Short to Mid Range
+Secondary,PMM,Handgun,Finka Fuze Glaz Kapkan Tachanka,Attacker Defender,Spetsnaz CBRN,61,51,Semi-Auto,8,Y,N,Short Range
+Secondary,PRB92,Handgun,Capitao,Attacker,BOPE,42,35,Semi-Auto,15,Y,N,Short Range
+Secondary,Q-929,Handgun,Lesion Ying,Attacker Defender,SDU,60,51,Semi-Auto,10,Y,N,Short Range
+Primary,R4-C,Assault Rifle,Ash,Attacker,FBI,39,33,860,30,Y,N,Mid to Long Range
+Secondary,RG15,Handgun,Ela Zofia,Attacker Defender,GROM,38,32,Semi-Auto,15,Y,N,Short Range
+Primary,SASG-12,Shotgun,Finka Kapkan Tachanka,Attacker Defender,CBRN Spetsnaz,50,42,Semi-Auto,10,Y,N,Short Range
+Primary,SCORPION EVO 3 A1,SMG,Ela,Defender,GROM,23,19,1080,40,Y,N,Short to Mid Range
+Secondary,SDP 9MM,Handgun,Gridlock Mozzie,Attacker Defender,SASR,47,39,Semi-Auto,16,Y,N,Short Range
+Primary,SG-CQB,Shotgun,Doc Lion Rook Twitch,Attacker Defender,GIGN CBRN,53,,Pump,7,N,N,Short Range
+Primary,SIX12 ,Shotgun,Ying,Attacker,SDU,35,,Semi-Auto,6,N,N,Short Range
+Primary,SIX12 SD,Shotgun,Lesion Nøkk,Attacker Defender,SDU JaegerCorps,35,,Semi-Auto,6,Y*,N,Short Range
+Secondary,SMG-11,Machine Pistol,Mute Sledge Smoke,Attacker Defender,SAS,35,29,1270,16,Y,N,Short to Long Range
+Secondary,SMG-12,Machine Pistol,Dokkaebi Vigil Warden,Attacker Defender,707thSMGSecretService,28,,1270,32,Y,N,Short Range
+Primary,SPAS-12,Shotgun,Valkyrie Oryx,Defender,NavySEALS,35,,Pump,7,N,N,Short Range
+Primary,SPAS-15,Shotgun,Caveira,Defender,BOPE,30,,Semi-Auto,6,N,N,Short to Mid Range
+Primary,SPEAR .308,Assault Rifle,Finka,Attacker,CBRN,38,32,700,30,Y,Y,Mid to Long Range
+Secondary,SPSMG9,Machine Pistol,Clash,Defender,MPS,33,28,980,20,Y,N,Short Range
+Primary,SR-25,Marksman Rifle,Blackbeard,Attacker,NavySEALS,61,51,Semi-Auto,20,Y,Y,Mid to Long Range
+Primary,SUPER 90,Shotgun,Frost,Defender,JTF2,35,,Semi-Auto,8,N,N,Short Range
+Secondary,SUPER SHORTY,Shotgun,Gridlock Mozzie,Attacker Defender,SASR,35,,Pump,3,N,N,Short Range
+Primary,SUPERNOVA,Shotgun,Echo Hibana,Attacker Defender,SAS,48,,Pump,7,N,N,Short to Mid Range
+Primary,T-5 SMG,SMG,Lesion,Defender,SDU,28,23,900,30,Y,N,Short to Mid Range
+Primary,T-95 LSW,Light Machine Gun,Ying,Attacker,SDU,43,36,650,80,Y,Y,Mid Range
+Primary,TCSG12,Shotgun,Kaid,Defender,GIGR,84,71,Semi-Auto,10,Y,Y,Short Range
+Primary,TYPE-89,Assault Rifle,Hibana,Attacker,SAT,40,34,850,20,Y,Y,Mid to Long Range
+Primary,UMP45,SMG,Castle Pulse,Defender,FBI,38,32,600,25,Y,N,Short to Mid Range
+Secondary,USP40,Handgun,Jackal Mira Oryx,Attacker Defender,GEO,48,40,Semi-Auto,12,Y,N,Short Range
+Primary,V308,Assault Rifle,Lion,Attacker,CBRN,44,37,700,50,Y,Y,Mid Range
+Primary,VECTOR .45 ACP,SMG,Mira,Defender,GEO,21,17,1200,25,Y,N,Short to Mid Range
+Primary,CSRX 300,Marksman Rifle,Kali,Attacker,NIGHTHAVEN,97,,Semi-Auto,5,N,N,Long Range

@@ -1,0 +1,3 @@
+Jubirildo;80;86.155
+Josefina;75;100.155
+Jose;50;150.155
